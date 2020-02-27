@@ -1,9 +1,10 @@
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Philosopher', ;
   font-size: 18px;
   line-height: 34px;
   color: #777777;
   background: url("../images/concrete_seamless.png");
+
 }
 
 * {
@@ -24,6 +25,7 @@ h2,
 h3,
 p {
   margin-bottom: 20px;
+  font-family: 'Philosopher', ;
 }
 
 p:last-child {
@@ -33,9 +35,10 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Philosopher', ;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #EDED00;
+  font-family: 'Philosopher', ;
 }
 
 h1 {
@@ -58,23 +61,23 @@ h3 {
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
-  color: #ffffff;
+  color: black;
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
+  font-family: 'Philosopher', ;
 }
 
 #logo {
   float: left;
   width: 250px;
   height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #ffffff;
+  color: black;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #EDED00;
 }
 
 nav {
@@ -106,8 +109,9 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #EDED00;
   height: 50px;
+ font-family: 'Philosopher', ;
 }
 
 h3,
@@ -133,8 +137,27 @@ h2 {
   margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
+  font-family: 'Philosopher', ;
 }
+/* about me */
 
+.auth-image {
+  float: left;
+  width: 250px;
+  rotate: 90deg;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+
+} 
+
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
 /* portfolio page */
 
 .work {
@@ -143,6 +166,7 @@ h2 {
   width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
+  font-family: 'Philosopher', ;
 }
 
 .work:nth-child(even) {
@@ -150,7 +174,7 @@ h2 {
 }
 
 .work img {
-  width: 100%;
+  width: auto;
   height: 220px;
   border: 0 none;
   opacity: 0.8;
@@ -164,29 +188,25 @@ h2 {
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
-  line-height: 30px;
-  color: #ffffff;
+  line-height: 15px;
+  color: black;
   text-align: center;
-  background: #4aaaa5;
+  background: #EDED00;
   border-bottom: 0;
+  font-family: 'Philosopher', ;
 }
 
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-}
 
 /* contact page */
 
 #contact-form ul {
   margin-bottom: 20px;
+  font-family: 'Philosopher', ;
 }
 
 #contact-form li {
   margin-bottom: 10px;
+  font-family: 'Philosopher', ;
 }
 
 label,
@@ -195,6 +215,7 @@ input[type="email"],
 textarea {
   display: block;
   width: 100%;
+  font-family: 'Philosopher', ;
 }
 
 input[type="text"],
@@ -204,10 +225,12 @@ textarea {
   padding: 0 10px;
   font-size: 14px;
   border: 1px solid #dddddd;
+  font-family: 'Philosopher', ;
 }
 
 textarea {
   height: 200px;
+  font-family: 'Philosopher', ;
 }
 
 input[type="submit"] {
@@ -215,8 +238,9 @@ input[type="submit"] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background:#EDED00;
   border: 0 none;
+  font-family: 'Philosopher', ;
 }
 
 /*MEDIA QUERIES BELOW*/
@@ -229,7 +253,9 @@ input[type="submit"] {
     margin: 60px 180px 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
+    font-family: 'Philosopher', ;
   }
+
 }
 
 @media only screen and(max-width: 768px) {
@@ -240,6 +266,7 @@ input[type="submit"] {
     margin: 60px 180px 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
+    font-family: 'Philosopher', ;
   }
 }
 
@@ -255,5 +282,6 @@ input[type="submit"] {
     margin: 60px 180px 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
+    font-family: 'Philosopher', ;
   }
 }
