@@ -144,20 +144,11 @@ h2 {
 .auth-image {
   float: left;
   width: 250px;
-  rotate: 90deg;
-  height: auto;
   margin-top: 10px;
   margin-right: 25px;
 
 } 
 
-.rotateimg90 {
-  -webkit-transform:rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
 /* portfolio page */
 
 .work {
