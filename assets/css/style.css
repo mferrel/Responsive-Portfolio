@@ -1,5 +1,5 @@
 body {
-  font-family: 'Philosopher', ;
+  font-family: 'Philosopher';
   font-size: 18px;
   line-height: 34px;
   color: #777777;
@@ -25,7 +25,7 @@ h2,
 h3,
 p {
   margin-bottom: 20px;
-  font-family: 'Philosopher', ;
+  font-family: 'Philosopher';
 }
 
 p:last-child {
@@ -35,10 +35,10 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: 'Philosopher', ;
+  font-family: 'Philosopher';
   font-weight: 700;
   color: #EDED00;
-  font-family: 'Philosopher', ;
+  font-family: 'Philosopher';
 }
 
 h1 {
@@ -64,7 +64,7 @@ h3 {
   color: black;
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
-  font-family: 'Philosopher', ;
+  font-family: 'Philosopher';
 }
 
 #logo {
@@ -111,7 +111,7 @@ footer {
   background: #666666;
   border-top: 8px solid #EDED00;
   height: 50px;
- font-family: 'Philosopher', ;
+ font-family: 'Philosopher';
 }
 
 h3,
@@ -137,7 +137,7 @@ h2 {
   margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
-  font-family: 'Philosopher', ;
+  font-family: 'Philosopher' ;
 }
 /* about me */
 
@@ -157,7 +157,7 @@ h2 {
   width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
-  font-family: 'Philosopher', ;
+  font-family: 'Philosopher';
 }
 
 .work:nth-child(even) {
@@ -184,7 +184,7 @@ h2 {
   text-align: center;
   background: #EDED00;
   border-bottom: 0;
-  font-family: 'Philosopher', ;
+  font-family: 'Philosopher' ;
 }
 
 
@@ -192,12 +192,12 @@ h2 {
 
 #contact-form ul {
   margin-bottom: 20px;
-  font-family: 'Philosopher', ;
+  font-family: 'Philosopher';
 }
 
 #contact-form li {
   margin-bottom: 10px;
-  font-family: 'Philosopher', ;
+  font-family: 'Philosopher';
 }
 
 label,
@@ -206,7 +206,7 @@ input[type="email"],
 textarea {
   display: block;
   width: 100%;
-  font-family: 'Philosopher', ;
+  font-family: 'Philosopher';
 }
 
 input[type="text"],
@@ -216,12 +216,12 @@ textarea {
   padding: 0 10px;
   font-size: 14px;
   border: 1px solid #dddddd;
-  font-family: 'Philosopher', ;
+  font-family: 'Philosopher';
 }
 
 textarea {
   height: 200px;
-  font-family: 'Philosopher', ;
+  font-family: 'Philosopher';
 }
 
 input[type="submit"] {
@@ -231,7 +231,7 @@ input[type="submit"] {
   cursor: pointer;
   background:#EDED00;
   border: 0 none;
-  font-family: 'Philosopher', ;
+  font-family: 'Philosopher' ;
 }
 
 /*MEDIA QUERIES BELOW*/
@@ -244,7 +244,7 @@ input[type="submit"] {
     margin: 60px 180px 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
-    font-family: 'Philosopher', ;
+    font-family: 'Philosopher' ;
   }
 
 }
@@ -257,7 +257,7 @@ input[type="submit"] {
     margin: 60px 180px 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
-    font-family: 'Philosopher', ;
+    font-family: 'Philosopher' ;
   }
 }
 
@@ -273,6 +273,6 @@ input[type="submit"] {
     margin: 60px 180px 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
-    font-family: 'Philosopher', ;
+    font-family: 'Philosopher' ;
   }
 }
